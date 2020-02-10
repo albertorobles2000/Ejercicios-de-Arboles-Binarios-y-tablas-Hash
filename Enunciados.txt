@@ -1,0 +1,70 @@
+Alberto Robles Hernández
+
+ejercicio01.cpp:
+  Escribe una función que determine cual es la hoja más profunda de un árbol binario.
+
+ejercicio02.cpp:
+  Escribe una función que acepte un valor de tipo node y un árbol general T y devuelva el nivel del
+  nodo en el árbol.
+
+ejercicio03.cpp:
+  Escribe una función que realice la reflexión de un árbol binario. Es decir, una función a la que se le
+  pase un árbol y se modifique de forma que para cada nodo su hijo a la izquierda pase a ser el derecho
+  y viceversa.
+
+ejercicio04.pdf:
+  El recorrido en preorden de un determinado árbol binario es:
+    GEAIBMCLDFKJH
+  y en inorden
+    IABEGLDCFMKHJ
+  Resolver:
+    a) Dibuja el árbol binario.
+    b) Da el recorrido en postorden.
+
+ejercicio05.cpp:
+  Definimos densidad de un árbol binario A como la suma de las profundidades de las hojas de un
+  árbol. Construir un algoritmo para calcular la densidad de un árbol binario.
+
+ejercicio06.cpp:
+  Supongamos que tenemos una función valor tal que dado un valor de tipo char (una letra del alfa-
+  beto) devuelve un valor entero asociado a dicho identificador. Supongamos también la existencia de
+  un árbol de expresión T cuyos nodos hoja son letras del alfabeto y cuyos nodos interiores son los
+  caracteres *, +, -, /. Diseñar una función que tome como parámetros un nodo y un árbol binario y
+  devuelva el resultado de la evaluación de la expresión representada.
+
+ejercicio07.cpp:
+  Dos árboles binarios son similares si son iguales en cuanto a su estructura, es decir, cada nodo en un
+  árbol tiene los mismos hijos y en el mismo lugar que el correspondiente en el otro árbol (sin importar
+  las etiquetas). Escribe una función que dados dos árboles binarios devuelva si son o no similares.
+
+ejercicio08.cpp:
+  Dado un bintree T , organizado como un BST, implementa una función a la que se le pasen dos valores
+  a y b y que determine de forma eficiente los valores presentes en el árbol y que estén comprendidos
+  entre ambos. Tanto a como b no tienen porqué aparecer en el árbol.
+
+ejercicio09.cpp:
+  Dada la representación vector<list<T> > TH de un tipo de dato hash_table<T>. Diseña
+  una representación del iterador e implementa las operaciones:
+  hash_table<T>::iterator::operator--(), tabla_hash<T>::begin() y
+  hash_table<T>::end().
+
+ejercicio12.pdf:
+  Construye un BST y un POT con las claves 50,25,75,10,40,60,90,35,45,70,42.
+
+ejercicio13.pdf:
+  Indica la secuencia de rotaciones resultante de la inserción del conjunto de elementos {1, 2, 3, 4, 5,
+  6, 7, 15, 14, 13, 12, 11, 10, 9, 8} en un árbol AVL.
+
+ejercicio14.pdf:
+  ¿Bajo qué condiciones puede un árbol ser parcialmente ordenado y binario de búsqueda simultánea-
+  mente? Razona la respuesta.
+
+ejercicio16.pdf:
+  Dada una secuencia de claves
+        S = {5, 8, 4, 13, 66, 2, 9, 12, 11, 17}
+  a)Inserta la secuencia anterior, en el orden indicado, en una tabla hash cerrada con resolución de
+  colisiones lineal y que tiene tamaño 11. A continuación, borrar los elementos 2 y 17.
+  b)Construye el árbol AVL que se obtiene al insertar los elementos de la secuencia S (en el orden
+  en que aparecen).
+
+
